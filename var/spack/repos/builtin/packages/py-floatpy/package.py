@@ -39,6 +39,7 @@ class PyFloatpy(PythonPackage):
     depends_on('py-mpi4py')
     depends_on('py-numpy')
     depends_on('py-matplotlib')
+    depends_on('py-f90wrap')
 
 
     def install_args(self, spec, prefix):
