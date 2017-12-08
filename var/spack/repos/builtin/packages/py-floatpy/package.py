@@ -28,10 +28,10 @@ from spack import *
 class PyFloatpy(PythonPackage):
     """Flow physics toolbox
     """
-    homepage = "https://github.com/FPAL-Stanford-University/FloATPy"
-    url      = "https://github.com/FPAL-Stanford-University/FloATPy"
+    homepage = "https://github.com/flow-phys/FloATPy"
+    url      = "https://github.com/flow-phys/FloATPy"
 
-    version('develop', git='https://github.com/FPAL-Stanford-University/FloATPy.git', branch='master')
+    version('develop', git='https://github.com/flow-phys/FloATPy.git', branch='master')
 
     depends_on('python@2.7:2.8,3.3:')
     depends_on('py-setuptools', type='build')
